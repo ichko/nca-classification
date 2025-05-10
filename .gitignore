@@ -1,0 +1,12 @@
+__pycache__vim
+*.pkl
+*.ignore.*
+**/.ipynb_checkpoints/*
+**/__pycache__/*
+.data
+.DS_Store
+imgs-ae
+imgs-ae2
+imgs-ae-1px
+.gif
+wandb
