@@ -4,24 +4,32 @@
 
 Each notebook presents a self contained experiment.
 
-## Main ideas explored
+## Results visualizations
+
+**Region activation**
 
 <table>
   <tr>
-    <td>Classification in the browser</td>
-    <td><img src="./assets/classifying-nca-in-the-browser.gif" style="width: 500px" /></td>
+    <td>Good vs. Bad region classification</td>
+    <td>
+      <img src="./assets/good.gif" style="width:500px"/>
+      <img src="./assets/bad.gif" style="width:500px"/>
+    </td>
   </tr>
   <tr>
-    <td>Classification</td>
-    <td><img src="./assets/cls-vis.gif" style="width: 500px" /></td>
-  </tr>
-  <tr>
-    <td>Macro pattern generation</td>
-    <td><img src="./assets/noise-bottleneck-optim.gif"style="width: 250px" /></td>
-  </tr>
-  <tr>
-    <td>Soliton</td>
-    <td><img src="./assets/soliton.gif" /></td>
+    <td>Visualizing select hidden channels</td>
+    <td><img src="./assets/hid.gif" style="width:500px"/></td>
   </tr>
 </table>
 
+**Canonical normalization**
+
+<table>
+  <tr>
+    <td>Grid of normalization examples</td>
+    <td>
+      <img src="./assets/canon-grid.gif" style="width:500px"/><br/>
+      Top to bottom - best to worst
+    </td>
+  </tr>
+</table>
