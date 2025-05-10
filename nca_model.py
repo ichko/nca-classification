@@ -108,8 +108,8 @@ class SimpleNCA(nn.Module):
 
             post_life_mask = self.alive(F.pad(x, (1, 1, 1, 1), "circular"))
             life_mask = (pre_life_mask & post_life_mask).to(x.dtype)
-            # if self.alive_mask:
-            #     x = x * life_mask
+            if self.alive_mask:
+                x = x * life_mask
 
             seq.append(x)
 
