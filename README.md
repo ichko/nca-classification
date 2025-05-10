@@ -12,13 +12,13 @@ Each notebook presents a self contained experiment.
   <tr>
     <td>Good vs. Bad region classification</td>
     <td>
-      <img src="./assets/good.gif" style="width:500px"/>
-      <img src="./assets/bad.gif" style="width:500px"/>
+      <img src="./assets/good.gif" style="width:1000px"/>
+      <img src="./assets/bad.gif" style="width:1000px"/>
     </td>
   </tr>
   <tr>
     <td>Visualizing select hidden channels</td>
-    <td><img src="./assets/hid.gif" style="width:500px"/></td>
+    <td><img src="./assets/hid.gif" style="width:1000px"/></td>
   </tr>
 </table>
 
@@ -28,7 +28,7 @@ Each notebook presents a self contained experiment.
   <tr>
     <td>Grid of normalization examples</td>
     <td>
-      <img src="./assets/canon-grid.gif" style="width:500px"/><br/>
+      <img src="./assets/canon-grid.gif" /><br/>
       Top to bottom - best to worst
     </td>
   </tr>
